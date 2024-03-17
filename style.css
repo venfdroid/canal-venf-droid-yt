@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-c {
+    background-color: rgba(0, 0, 0, 0.667);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 25px;
+}
+
+.logo {
+    padding: 30px 0px;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid hsl(208, 100%, 50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}
+
+.listas-de-jogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 428px;
+    width: 100%;
+}
+
+.jogo {
+    background-color: hsl(208, 100%, 50%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.logo-nome {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.jogo a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.jogo-logo {
+    width: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    border: 1px solid white;
+    
+}
+
+.jogo-nome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.jogo-baixar {
+    filter: invert(100%);
+}
