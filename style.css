@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+
+:root {
+    --var-font: 'Poppins', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .fundo-c {
-    background-color: rgba(0, 0, 0, 0.667);
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
     height: 100vh;
     display: flex;
     align-items: center;
@@ -17,10 +23,7 @@
 }
 
 .logo img {
-    width: 100px;
-    border-radius: 50%;
-    border: 5px solid hsl(208, 100%, 50%);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+    width: 150px;       
 }
 
 .listas-de-jogos {
@@ -33,7 +36,7 @@
 }
 
 .jogo {
-    background-color: hsl(208, 100%, 50%);
+    background-color: hsla(208, 100%, 50%, 0.419);
     padding: 10px;
     border-radius: 10px;
     width: 100%;
@@ -59,14 +62,10 @@
 .jogo-logo {
     width: 40px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px white;
-    border: 1px solid white;
-    
 }
 
 .jogo-nome {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: var(--var-font);
 }
 
 .jogo-baixar {
