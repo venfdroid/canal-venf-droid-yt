@@ -12,11 +12,11 @@
 
 .fundo-c {
     background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0px 25px;
+    padding: 0px 25px 20px 25px;
 }
 
 .logo {
@@ -50,6 +50,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    font-size: 14px;
 }
 
 .jogo a {
@@ -72,4 +73,23 @@
 
 .jogo-baixar {
     filter: invert(100%);
+    margin-left: 10px;
+}
+
+.copyright-canal {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.copyright-canal-img {
+    width: 15px;
+}
+
+.copyright-canal-nome {
+    font-family: var(--var-font);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 }
