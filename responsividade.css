@@ -1,0 +1,202 @@
+@media (max-width: 320px) {
+
+    .fundo-c {
+        padding: 0px 20px;
+    }
+    
+    .logo img {
+        width: 100px;       
+    }
+
+    .inscrevase {
+        gap: 15px;
+    }
+
+    .inscrevase-liberado {
+        gap: 5px;
+    }
+
+    .inscrevase-liberado-img {
+        width: 15px;
+    }
+    
+    .inscrevase-liberado-title {
+        font-size: 9px;
+    }
+    
+    .inscrevase-btn {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .jogos-title {
+        gap: 5px;
+    }
+    
+    .jogos-title h2 {
+        font-size: 10px;
+    }
+    
+    .jogos-title img {
+        width: 7px;
+    }
+
+    .logo-nome {  
+        gap: 15px;
+        font-size: 10px;
+    }
+
+    .jogo-logo {
+        width: 30px;
+    }
+
+    .jogo-baixar {
+        width: 18px;
+    }
+
+    .copyright-canal-img {
+        width: 10px;
+    }
+    
+    .copyright-canal-nome {
+        font-size: 9px;
+    } 
+
+}
+
+/* ----------------------------------------------------------------------------- */
+
+
+@media (min-width: 321px) and (max-width: 376px) {
+
+    .fundo-c {
+        padding: 0px 20px;
+    }
+    
+    .logo img {
+        width: 120px;       
+    }
+
+    .inscrevase {
+        gap: 15px;
+    }
+
+    .inscrevase-liberado {
+        gap: 5px;
+    }
+
+    .inscrevase-liberado-img {
+        width: 20px;
+    }
+    
+    .inscrevase-liberado-title {
+        font-size: 11px;
+    }
+    
+    .inscrevase-btn {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .jogos-title {
+        gap: 5px;
+    }
+    
+    .jogos-title h2 {
+        font-size: 14px;
+    }
+    
+    .jogos-title img {
+        width: 12px;
+    }
+
+    .logo-nome {  
+        gap: 15px;
+        font-size: 13px;
+    }
+
+    .jogo-logo {
+        width: 35px;
+    }
+
+    .jogo-baixar {
+        width: 20px;
+    }
+
+    .copyright-canal-img {
+        width: 13px;
+    }
+    
+    .copyright-canal-nome {
+        font-size: 12px;
+    }
+
+}
+
+/* ----------------------------------------------------------------------------- */
+
+@media (min-width: 377px) and (max-width: 415px) {
+
+    .fundo-c {
+        padding: 0px 20px;
+    }
+    
+    .logo img {
+        width: 120px;       
+    }
+
+    .inscrevase {
+        gap: 15px;
+    }
+
+    .inscrevase-liberado {
+        gap: 5px;
+    }
+
+    .inscrevase-liberado-img {
+        width: 20px;
+    }
+    
+    .inscrevase-liberado-title {
+        font-size: 11px;
+    }
+    
+    .inscrevase-btn {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .jogos-title {
+        gap: 5px;
+    }
+    
+    .jogos-title h2 {
+        font-size: 14px;
+    }
+    
+    .jogos-title img {
+        width: 12px;
+    }
+
+    .logo-nome {  
+        gap: 15px;
+        font-size: 13px;
+    }
+
+    .jogo-logo {
+        width: 35px;
+    }
+
+    .jogo-baixar {
+        width: 20px;
+    }
+
+    .copyright-canal-img {
+        width: 13px;
+    }
+    
+    .copyright-canal-nome {
+        font-size: 12px;
+    }
+
+}
