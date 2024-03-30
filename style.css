@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-    padding: 30px 0px;
+    padding: 0px;
 }
 
 .logo img {
@@ -40,6 +40,61 @@ body {
     width: 100%;
     gap: 30px;
 }
+
+
+.inscrevase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.inscrevase-liberado {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inscrevase-liberado-img {
+    width: 25px;
+}
+
+.inscrevase-liberado-title {
+    font-family: var(--var-font);
+    color: #fff;
+    font-size: 12px;
+}
+
+.inscrevase-btn {
+    text-decoration: none;
+    font-family: var(--var-font);
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20PX;
+}
+
+.jogos-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.jogos-title h2 {
+    font-family: var(--var-font);
+    color: #fff;
+    font-size: 16px;
+}
+
+.jogos-title img {
+    width: 15px;
+    filter: invert(100%);
+}
+
 
 .jogo {
     background-color: hsla(208, 100%, 50%, 0.419);
