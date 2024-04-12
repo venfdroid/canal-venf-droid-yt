@@ -1,6 +1,6 @@
 @media (max-width: 320px) {
 
-    .fundo-c {
+    .fundo{
         padding: 0px 20px;
     }
     
@@ -26,31 +26,19 @@
     
     .inscrevase-btn {
         font-size: 9px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
-    .jogos-title {
-        gap: 5px;
-    }
-    
-    .jogos-title h2 {
-        font-size: 10px;
-    }
-    
-    .jogos-title img {
-        width: 7px;
-    }
-
-    .logo-nome {  
+    .jogo-logo-name p{  
         gap: 15px;
         font-size: 10px;
     }
 
-    .jogo-logo {
+    .jogo-logo-name img {
         width: 30px;
     }
 
-    .jogo-baixar {
+    .jogo-icone-baixar {
         width: 18px;
     }
 
@@ -69,7 +57,7 @@
 
 @media (min-width: 321px) and (max-width: 376px) {
 
-    .fundo-c {
+    .fundo {
         padding: 0px 20px;
     }
     
@@ -94,32 +82,24 @@
     }
     
     .inscrevase-btn {
-        font-size: 12px;
-        margin-bottom: 10px;
+        font-size: 10px;
+        margin-bottom: 30px;
     }
 
-    .jogos-title {
-        gap: 5px;
-    }
-    
-    .jogos-title h2 {
-        font-size: 14px;
-    }
-    
-    .jogos-title img {
-        width: 12px;
-    }
+   
 
-    .logo-nome {  
+
+
+    .jogo-logo-name p{  
         gap: 15px;
         font-size: 13px;
     }
 
-    .jogo-logo {
+    .jogo-logo-name img {
         width: 35px;
     }
 
-    .jogo-baixar {
+    .jogo-icone-baixar {
         width: 20px;
     }
 
@@ -137,7 +117,7 @@
 
 @media (min-width: 377px) and (max-width: 415px) {
 
-    .fundo-c {
+    .fundo {
         padding: 0px 20px;
     }
     
@@ -163,31 +143,22 @@
     
     .inscrevase-btn {
         font-size: 12px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
 
-    .jogos-title {
-        gap: 5px;
-    }
     
-    .jogos-title h2 {
-        font-size: 14px;
-    }
-    
-    .jogos-title img {
-        width: 12px;
-    }
 
-    .logo-nome {  
+
+    .jogo-logo-name p{  
         gap: 15px;
         font-size: 13px;
     }
 
-    .jogo-logo {
+    .jogo-logo-name img {
         width: 35px;
     }
 
-    .jogo-baixar {
+    .jogo-icone-baixar {
         width: 20px;
     }
 

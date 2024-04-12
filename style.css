@@ -10,13 +10,29 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #343F61;
+    height: 100%;
+}
+
+.fundo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
 .fundo-c {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0px 25px;
-    background-image: linear-gradient( 112.1deg, rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
-    height: 100%;
+    max-width: 428px;
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+    /* background-image: linear-gradient( 112.1deg, rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% ); */
+    
 }
 
 .logo {
@@ -26,17 +42,6 @@
 .logo img {
     width: 150px;       
 }
-
-.listas-de-jogos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 428px;
-    width: 100%;
-    gap: 30px;
-}
-
 
 .inscrevase {
     display: flex;
@@ -70,63 +75,81 @@
     border-radius: 5px;
     font-size: 12px;
     font-weight: 600;
-    margin-bottom: 20PX;
+    margin-bottom: 50px;
 }
 
-.jogos-title {
+#pesquisa {
     width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: var(--var-font);
+    background-image: url(imagens/icone/icone-pesquisar.png);
+    background-repeat: no-repeat;
+    background-position: calc(98%);
+    background-size: 20px;
+
+}
+
+.jogos-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 428px;
+    width: 100%;
+    gap: 30px; 
 }
 
-.jogos-title h2 {
-    font-family: var(--var-font);
-    color: #fff;
-    font-size: 16px;
+#jogos {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    gap: 30px;
 }
-
-.jogos-title img {
-    width: 15px;
-    filter: invert(100%);
-}
-
 
 .jogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: hsla(208, 100%, 50%, 0.419);
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 10px;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
 }
 
-.logo-nome {
+li {
+    list-style: none;
+}
+
+.jogo-logo-name {
     display: flex;
     align-items: center;
     gap: 20px;
     font-size: 14px;
 }
 
-.jogo a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;  
-    text-decoration: none;
-    color: white;
-    padding: 0px 10px;
-}
-
-.jogo-logo {
+.jogo-logo-name img {
     width: 40px;
-    
 }
 
-.jogo-nome {
+.nome-da-pesquisa {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.jogo-logo-name p {
     font-family: var(--var-font);
+    color: #fff;
 }
 
-.jogo-baixar {
+.jogo-icone-baixar {
     filter: invert(100%);
     margin-left: 10px;
 }
